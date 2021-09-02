@@ -1,0 +1,141 @@
+@media only screen and (max-width: 1024px){
+    header{
+        height: 65vh;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+    
+    .row{
+        margin: 0 15px !important;
+    }
+    .hero-text-box {
+        width: 90%;
+    }
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .client-photo{
+        width: 100% !important;
+        float: none !important;
+        text-align: center !important;   
+    }
+    .client-review{
+        width: 100% !important;
+        float: none !important;
+        text-align: center !important;
+    }
+    .Contact-section form{
+        width: 100%;
+   }
+}
+
+@media only screen and (max-width: 980px){
+    header{
+        height: 55vh;
+    }
+    .span_1_of_4 {
+        width: 49.2% !important;
+    }
+    .col:nth-child(3){
+        margin-left: 0 !important;
+    }
+    html{
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    
+    header{
+        height: 50vh;
+    }
+    .litte-discription{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 3.5rem !important;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .box p {
+        font-size: 1.8rem !important;
+    }
+    .footer-section li {
+        padding: 0 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    header{
+        height: 50vh;
+    }
+    .span_1_of_4 {
+        width: 100% !important;
+    }
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 2.4rem;
+    }
+    h3 {
+        font-size: 2.2rem;
+    }
+    .footer-section li {
+        padding: 0 .8rem;
+        margin: 1rem 1rem;
+    }
+    .litte-discription{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 332px){
+
+    header{
+        height: 45vh;
+    }
+    h2{
+        font-size: 1.7rem;
+    }
+    h3{
+        font-size: 1.4rem;
+    }
+    h4 {
+        font-size: 1.4rem;
+        margin-top: 1.5rem;
+    }
+    .litte-discription{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .box p {
+        font-size: 1.5rem !important;
+    }
+    .btn:link, .btn:visited, .btn {
+        padding: 1.5rem 2rem;
+        font-size: 1.6rem;
+    }
+    .portfolio-filter button {
+        background: #ebc985;
+        font-size: 1.2rem;
+        padding: 1rem 1rem;
+        margin: 6px 0.5rem;
+    }
+    .role {
+        margin-top: 1rem;
+        
+        font-size: 1.3rem;
+        
+    }
+}
